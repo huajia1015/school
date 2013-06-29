@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>联系我们</title>
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        .contact{
+            margin-top: 20px;
+        }
+        #content .contact p{
+            text-indent: 0;
+        }
+    </style>
+    <% include ./includes/external %>
+</head>
+
+<body>
+<% include ./includes/header %>
+<div class="container" id="content">
+    <div class="row">
+        <% include ./includes/left %>
+        <div class="span9">
+			<iframe src="/baidu.html" id="" width=652 height=552  frameborder= 0></iframe>
+            <div class="contact">
+                <p>地址：上海浦东新区茂兴路98号仁恒广场一座12B</p>
+
+                <p>周边交通：地铁四号线（塘桥站）; 沪南线; 浦卫线; 塘邵专线;82路;314路空调; 454路; 522路; 581路; 610路; 736路空调;787路; 818路;929路; 938路; 969路;
+                    978路; 981路; 985路; 1011路环线;中国馆班车1线</p>
+
+                <p> 联系人：陈老师</p>
+
+                <p>联系电话：15801834760、15721204335</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<% include ./includes/footer%>
+</html>

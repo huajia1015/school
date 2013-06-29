@@ -1,0 +1,148 @@
+body{
+    background: url(../images/body_bg.jpg) repeat-x top white;
+    font-family: 'Segoe UI', 'Segoe UI Web Regular', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif
+}
+#header{
+    height: 100px;
+}
+#header h1{
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    color: #fff;
+    text-indent: 10px;
+}
+#header p.tip{
+    border-top: 1px solid #EEE;
+    text-indent: 10px;
+    padding-top: 5px;
+    color: #FFF;
+}
+#header a:hover{
+    text-decoration: none;
+}
+#header-inner{
+    position: relative;
+}
+#nav{
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+#nav a{
+    margin-left: 20px;
+    color: #FFF;
+    font-weight: bold;
+}
+#nav a:hover{
+    color: #AAA;
+}
+[class*=icon16]{
+    margin: 2px;
+}
+[class*=icon32]{
+    margin: 6px;
+}
+.micon16{
+    margin: 2px;
+}
+.icon16-QQ{
+    background-image: url(../images/Tencent_QQ.png)!important
+}
+.h220{
+    height: 220px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+
+#prospectus{
+    background-color: #f58000;
+    height: 460px;
+}
+#contact{
+    line-height: 20px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 150px;
+}
+#contact p{
+    margin-bottom: 2px;
+    height: 20px;
+}
+#notice{
+    background-color: #7ec119;
+}
+#picture{
+    background-color: #d3d3d3;
+}
+#team{
+    background-color: #245081;
+}
+#schedule{
+    background-color: #0198dd;
+}
+.hover-change i{
+    margin-top: 86px;
+    margin-left: 86px;
+}
+.hover-change h2,.hover-change h3{
+    text-align: center;
+    color: #FFF;
+}
+.hover-change:hover i{
+    background-image: url("../bootstrap/img/icons-48.png");
+}
+.special i{
+    margin-top: 206px;
+    margin-left: 206px;
+}
+.tc{
+    text-align: center;
+}
+#content p{
+    text-indent: 2em;
+}
+ul#nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#nav li{
+    margin-bottom: 20px;
+}
+ul#nav a span{
+    border-left:10px solid #ffffff;
+    display: inline-block;
+    padding-left: 10px;
+    color: #ffffff;
+}
+ul#nav li:hover span{
+    text-decoration: underline;
+}
+ul#nav a{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    color: #000;
+}
+.teacher{
+    border-bottom: 3px solid orange;
+    margin-bottom: 20px;
+}
+#footer{
+    height: 100px;
+    background: #E5E5E5 url(../images/bg_foote_120420.gif) repeat-x;
+    margin-top: 20px;
+    position: relative;
+}
+#footer p{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #999;
+}

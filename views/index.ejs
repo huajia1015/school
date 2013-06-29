@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %> | 陈老师工作室 </title>
+    <% include ./includes/external %>
+</head>
+<body>
+<% include ./includes/header %>
+<div class="container" id="content">
+    <div class="row">
+        <a href="/prospectus">
+            <div class="span6 hover-change special" id="prospectus">
+                <i class="icon48-document white"></i>
+                <h2>招生简章</h2>
+            </div>
+        </a>
+        <div class="span6" id="right">
+            <div class="row mb20">
+                <a href="/notice">
+                    <div class="span3 h220 hover-change" id="notice">
+                        <i class="icon48-trophy white"></i>
+                        <h3>成绩排行榜</h3>
+                    </div>
+                </a>
+                <a href="/team">
+                    <div class="span3 h220 hover-change" id="team">
+                        <i class="icon48-portrait white"></i>
+                        <h3>师资团队</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <a href="/picture">
+                    <div class="span3 h220 hover-change" id="picture">
+                        <i class="icon48-picture white"></i>
+                        <h3>课堂实录</h3>
+                    </div>
+                </a>
+                <a href="/schedule">
+                    <div class="span3 h220 hover-change" id="schedule">
+                        <i class="icon48-list-view white"></i>
+                        <h3>课程安排</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<% include ./includes/footer%>
+</body>
+</html>

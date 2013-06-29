@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %> | 陈老师工作室 </title>
+    <% include ./includes/external %>
+</head>
+<body>
+<% include ./includes/header %>
+<div class="container" id="content">
+    <div class="row">
+        <% include ./includes/left %>
+        <div class="span9">
+            <h3>课程安排</h3>
+            <table class="table table-bordered">
+                <tr>
+                    <td></td>
+                    <td>时间</td>
+                    <td>A教室</td>
+                    <td>B教室</td>
+                    <td>C教室</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">周五</td>
+                    <td>13:00-15:00</td>
+                    <td>G2</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18:30-20:30</td>
+                    <td>小学新三</td>
+                    <td>G3奥数</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">周六</td>
+                    <td>9:30-11:30</td>
+                    <td>G4</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13:00-15:00</td>
+                    <td>S1新三</td>
+                    <td>G7 maths</td>
+                    <td>13:30-15:30 G8 Maths</td>
+                </tr>
+                <tr>
+                    <td>15:30-17:30</td>
+                    <td>G7</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:00-21:00</td>
+                    <td>成人口语</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">周日</td>
+                    <td>9:30-11:30</td>
+                    <td>G9</td>
+                    <td>G4奥数</td>
+                    <td>G4 maths</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:00-15:00</td>
+                    <td rowspan="2">G6</td>
+                    <td rowspan="2">G9 maths</td>
+                    <td>13:00-14:15 大班</td>
+                </tr>
+                <tr>
+                    <td>14:30-16:30 G8 English</td>
+                </tr>
+                <tr>
+                    <td>15:30-17:30</td>
+                    <td>S1</td>
+                    <td>15:00-17:00 G7 maths</td>
+                    <td>16:30-18:30 G4 English</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<% include ./includes/footer%>
+</body>
+</html>

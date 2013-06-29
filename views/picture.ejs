@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %> | 陈老师工作室 </title>
+    <% include ./includes/external %>
+    <style type="text/css">
+        .single img{
+            height:134px;
+            width : 200px;
+        }
+    </style>
+</head>
+<body>
+<% include ./includes/header %>
+<div class="container" id="content">
+    <div class="row">
+        <% include ./includes/left %>
+        <div class="span9">
+            <div class="row mb20">
+                <div class="span3 first">
+                    <a href="/picture/0452.jpg" rel="lightbox[plants]"><img src="/picture/0452.jpg" ></a>
+                </div>
+                <div class="span3">
+                    <a href="/picture/0444.jpg" rel="lightbox[plants]"><img src="/picture/0444.jpg" ></a>
+                </div>
+                <div class="span3">
+                    <a href="/picture/0510.jpg" rel="lightbox[plants]"><img src="/picture/0510.jpg" ></a>
+                </div>
+            </div>
+            <div class="row mb20">
+                <div class="span3">
+                    <a href="/picture/0458.jpg" rel="lightbox[plants]"><img src="/picture/0458.jpg" ></a>
+                </div>
+                <div class="span3">
+                    <a href="/picture/0515.jpg" rel="lightbox[plants]"><img src="/picture/0515.jpg" ></a>
+                </div>
+                <div class="span3 last">
+                    <a href="/picture/0355.jpg" rel="lightbox[plants]"><img src="/picture/0355.jpg" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% include ./includes/footer%>
+</body>
+</html>
