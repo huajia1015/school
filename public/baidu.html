@@ -11,12 +11,12 @@
     .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
     .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
 </style>
-<script type="text/javascript" src="http://api.map.baidu.com/api?key=67bd734bd2ef5e5ccecfeccbb5a221ee&v=1.1&services=true"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body>
   <!--百度地图容器-->
-  <div style="width:650px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+  <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
 </body>
 <script type="text/javascript">
     //创建和初始化地图函数：
@@ -30,7 +30,7 @@
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(121.520892,31.215236);//定义一个中心点坐标
+        var point = new BMap.Point(121.525275,31.21619);//定义一个中心点坐标
         map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
@@ -57,7 +57,7 @@
     }
     
     //标注点数组
-    var markerArr = [{title:"陈老师工作室",content:"我的备注",point:"121.520901|31.21522",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    var markerArr = [{title:"西象教育",content:"英语、数理化个性化辅导",point:"121.524853|31.216699",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
 		 ];
     //创建marker
     function addMarker(){
