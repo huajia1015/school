@@ -67,7 +67,9 @@ body{
     position: absolute;
     top: 8px;
     right: 0px;
-    width: 150px;
+    width: 300px;
+	font-size: 18px;
+	color: #FFF
 }
 #contact p{
     margin-bottom: 2px;
