@@ -69,7 +69,8 @@ body{
     right: 0px;
     width: 300px;
 	font-size: 18px;
-	color: #FFF
+	color: #FFF;
+	text-align: right;
 }
 #contact p{
     margin-bottom: 2px;
